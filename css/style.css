@@ -187,8 +187,6 @@ body {
 .slide16 { background-image: url(../img/slider-4-1.jpg); background-size: cover;}
 .slide17 { background-image: url(../img/slider-4-2.jpg); background-size: cover;}
 .slide18 { background-image: url(../img/slider-4-3.jpg); background-size: cover;}
-.slide19 { background-image: url(../img/slider-4-4.jpg); background-size: cover;}
-.slide20 { background-image: url(../img/slider-4-5.jpg); background-size: cover;}
 
 .slider-1 .controls,
 .slider-2 .controls,
@@ -199,6 +197,11 @@ body {
 	position: absolute;
 	margin-top: -60px;
 	z-index: 20;
+}
+
+.slider-3 .controls,
+.slider-4 .controls {
+	margin-left: -48px;
 }
 
 .slider-1 label,
@@ -273,9 +276,7 @@ body {
 #slide15:checked ~ .controls label:nth-of-type(5),
 #slide16:checked ~ .controls label:nth-of-type(1),
 #slide17:checked ~ .controls label:nth-of-type(2),
-#slide18:checked ~ .controls label:nth-of-type(3),
-#slide19:checked ~ .controls label:nth-of-type(4),
-#slide20:checked ~ .controls label:nth-of-type(5) {
+#slide18:checked ~ .controls label:nth-of-type(3) {
 	background: #dadada;
 }
 
@@ -312,9 +313,7 @@ body {
 #slide15:checked ~ .slider-z > .slide15,
 #slide16:checked ~ .slider-a > .slide16,
 #slide17:checked ~ .slider-a > .slide17,
-#slide18:checked ~ .slider-a > .slide18,
-#slide19:checked ~ .slider-a > .slide19,
-#slide20:checked ~ .slider-a > .slide20 {
+#slide18:checked ~ .slider-a > .slide18 {
 	opacity: 1;
 	z-index: 1;
 	-webkit-transform: scale(1);
