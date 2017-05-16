@@ -1,0 +1,145 @@
+body {
+	background: #000;
+}
+
+/* Utils */
+
+.wrapper {
+	width: 1160px;
+	margin: 0 auto;
+	z-index: 0;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* Header */
+
+.is_overlay { 
+	display: block;
+	width: 100%;
+	height: 100%; 
+}
+
+#trailer {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: -20;
+}
+
+#trailer > video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%; 
+  min-height: 100%;
+  width: auto;
+  height: auto; 
+}
+
+.logo {
+	width: 500px;
+	padding-top: 100px;
+	margin: 0 auto;
+}
+
+.logo-left {
+	position: relative;
+	top: 25px;
+	float: left;
+	background-color: #dadada;
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+}
+
+.logo-right {
+	position: relative;
+	float: right;
+}
+
+.h1-header,
+.caption {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+}
+
+.h1-header {
+	font-weight: 700;
+	color: #fafafa;
+	font-size:  48px;
+}
+
+.caption {
+	font-weight: 400;
+	color: #fafafa;
+	font-size:  36px;
+}
+
+.main-menu {
+	margin-top: 200px;
+	margin-left: 100px;
+}
+
+.menu-list li {
+	display: inline;
+	margin-left: 30px;
+}
+
+.menu-list a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu-list a:hover {
+	color: #dadada;
+}
+
+/* MAIN */
+
+.main {
+	margin-top: 100px;
+}
+
+.slider {
+	width: auto;
+	min-height: 500px;
+	margin-bottom: 40px;
+}
+
+.slider-1,
+.slider-2,
+.slider-3 {
+	margin: 0 auto;
+	width: 640px;
+	height: 480px;
+	background-color: #dadada;
+	text-align: center;
+	opacity: 0.6;
+	border-radius: 20px;
+}
+
+.description {
+	background-color: #fff;
+	margin-top: 10px;
+	border-radius: 20px;
+	margin: 0 auto;
+	width: 640px;
+}
+
+.description-text {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #000;
+	padding: 5px;
+}
